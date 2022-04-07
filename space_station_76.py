@@ -94,7 +94,10 @@ class Enemy():
         self.vel_y = 10
 
     def update(self):
-        if self.y > (top_wall_y_start + 32) - (self.x / 2) and self.y < (bottom_wall_y_start + 43) - (self.x / 2) and self.y < (left_wall_y_start + 5) + (self.x / 2) and self.y > (right_wall_y_start + 35) + (self.x/2):
+        if self.y > (top_wall_y_start + 32) - (self.x / 2) and self.y < \
+            (bottom_wall_y_start + 43) - (self.x / 2) and self.y < \
+            (left_wall_y_start + 5) + (self.x / 2) and self.y > \
+                (right_wall_y_start + 35) + (self.x/2):
             pass
         else:
             # print("here")
@@ -208,7 +211,7 @@ class WallObjects:
         image = sample(wall_images,  1)
         # load one random image
         self.image = pygame.image.load(image[0]).convert_alpha()
-        # Start the wall items with a 20 pixel buffer so items are not right in the upper rught corner
+        # Start wall items with a 20 pixel buffer so items are not right in the upper rught corner
         self.x = x + ((top_wall_y_start - 20) - self.image.get_width())
         # start the wall objects baesed on info on the line above
         self.y = (-x / 2) + 175
@@ -248,7 +251,8 @@ def is_in_bounds(top, botton, left, right):
         x = randint(0, SCREEN_WIDTH)
         y = randint(0, SCREEN_HEIGHT)
 
-        if y > (top_wall_y_start + top) - (x / 2) and y < (bottom_wall_y_start + botton) - (x / 2) and y < (left_wall_y_start + left) + (x / 2) and y > (right_wall_y_start + right) + (x/2):
+        if y > (top_wall_y_start + top) - (x / 2) and y < (bottom_wall_y_start + botton) - (x / 2) \
+            and y < (left_wall_y_start + left) + (x / 2) and y > (right_wall_y_start + right) + (x/2):
             bounds = False
             return x, y
         else:
