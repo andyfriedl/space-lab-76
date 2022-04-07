@@ -8,6 +8,8 @@ Use the arrow keys to move the bot.  ⬅️ ⬆️ ⬇️ ➡️
 - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) red disk - dammage 16C8F0
 
 
+This is a work in progress and clearly needs to be optimizzed.
+
 
 ------
 
