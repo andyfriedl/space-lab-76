@@ -16,4 +16,4 @@ https://www.spacelab76.com/
 
 ![Space Lab 76][logo]
 
-[logo]: https://1.bp.blogspot.com/-leEoKXXJXCc/YGYGRPgU1lI/AAAAAAABaFo/itn6q0CKTJUHIczKSMajQp4UKNF7W35oACLcBGAsYHQ/s0/space-lab76-game-blank.pngg "Logo Title Text 2"
+[logo]: https://lh3.googleusercontent.com/7LCL1GIskNF3RChQepf30HpNIvKgabWISkOjV5Q4nUJinha69YgNbPyImRyTbVnPaXd0FizFC_OuKZ9jUShlMJaRmsHanHPOBpZH0QPNCVdEu6hQAJ6CHneoiPhSyfS1Sw8DDji2bdw=s0 ""
