@@ -11,12 +11,12 @@ Your goal is to restore systems, scan objects in the correct order, unlock doors
 
 ## 🎮 How to Play
 
-- **Move** → Use **arrow keys** to navigate **Bot**.
-- **Scan objects** → Press **SPACE** near a wall object to scan it.
-- **Collect items** → Walk over floor items to pick them up (some restore power, others provide hints or hazards).
-- **Unlock doors** → Scan objects in the correct order to unlock doors.
-- **Avoid enemies** → Sentry Bots patrol the station and will drain your power if they hit you.
-- **Monitor power** → Power depletes over time; collect power disks to stay operational.
+- **Move** ➜ Use **arrow keys** to navigate **Bot**.
+- **Scan objects** ➜ Press **SPACE** near a wall object to scan it.
+- **Collect items** ➜ Drive over floor items to pick them up (some restore power, others provide hints or hazards, and some dont do anything).
+- **Unlock doors** ➜ Scan objects in the correct order to unlock doors. (Currently you only need to scan one item per room.)
+- **Avoid enemies** ➜ Sentry Bots patrol the station and will drain your power and freeze you in place for a bit if they hit you.
+- **Monitor power** ➜ Power depletes over time; collect power disks to stay operational.
 
 ---
 
@@ -89,19 +89,15 @@ python main.py
 
 
 ## Visual Effects
-- 🔴 Damage Effect → Sparks appear when Bot takes damage.
-- 🟢 Success Effect → A glowing energy ring expands outward when Bot correctly scans an object.
+- 🟥 Damage Effect → Sparks appear when Bot takes damage.
+- 🟩 Success Effect → A glowing energy ring expands outward when Bot correctly scans an object.
 - ⚡ Power Items → Some floor items restore Bot’s power when collected.
 
 ## 💡 Hints for New Players
-- 🟢 Scanning is key! Scan the wall objects in the right order to unlock the door.
-- 📀 Look for floor disks – Some provide power, others hints, but some may be hazards.
+- 🟢 Scanning is key! Scan the wall objects in the right order to unlock the door. Check floor items first, they can hold clues.
+- 💾 Look for floor disks – Some provide power, others hints, but some may be hazards.
 - 🔴 Avoid enemy drones – If they hit you, you'll lose power.
 - 🚪 Doors don’t open automatically – Move into the door zone once you have scanned all required objects.
-- ⚡ Your power drains over time – Keep an eye on the battery level.
+- 🔋 Your power drains over time – Keep an eye on the battery level.
 - 📡 Scanning takes time – Be sure you’re scanning the right object before pressing SPACE.
 
-## 🛠️ Built With
-- `Python`
-- `Pygame`
-- `JSON`-based level design
