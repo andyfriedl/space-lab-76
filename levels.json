@@ -1,0 +1,188 @@
+{
+    "level_1": {
+        "level_time": 300,
+        "player_start": { "x": 257, "y": 467 },
+        "power_drain_rate": 30,
+        "sentries": {
+            "count": 2,  
+            "speed": "slow"  
+        },
+        "objects": [
+            {"name": "boxes", "interactive": true, "search_time": 0.5},
+            {"name": "space", "interactive": false},
+            {"name": "boxes", "interactive": true, "search_time": 0.5},
+            {"name": "paper_l", "interactive": true, "search_time": 0.5},
+            {"name": "windlow_2", "interactive": false},
+            {"name": "buttons_l", "interactive": false},
+            {"name": "printer_l", "interactive": true, "search_time": 1.0},
+            {"name": "paper_l", "interactive": true, "search_time": 0.5},
+            {"name": "tape_reel_l", "interactive": true, "search_time": 0.5}
+
+        ],
+        "progression": {
+            "interaction_order": ["printer_l", "door_floor_zone"],
+            "unlock": ["door"],
+            "door_position": { "x": 911, "y": 105 },
+            "door_floor_zone": {
+                "x1": 913, "y1": 107,
+                "x2": 842, "y2": 248,
+                "height_extension": 50
+            },
+            "door_closed_image": "closed_door.png",
+            "door_open_image": "open_door.png"
+        },
+        "floor_items": {
+            "random": {  
+                "count": 6,
+                "directory": "floor_items/random"
+            },
+            "placed": [
+                {
+                    "name": "5-14-floppy-drk-blue-br",
+                    "x": 600,
+                    "y": 340,
+                    "effect": "hint",
+                    "hint_text": "Scan the wall items\nto unlock the door."
+                },
+                {
+                    "name": "5-14-floppy-red-tl",
+                    "x": 700,
+                    "y": 300,
+                    "effect": "hint",
+                    "hint_text": "Try scanning the printer\nPress Space."
+                },
+                {
+                    "name": "5-14-floppy-green-br",
+                    "x": 800,
+                    "y": 300,
+                    "effect": "hint",
+                    "hint_text": "Disks contain rewards...\nor hazards."
+                }
+            ],
+            "wear": {
+                "count": 2,
+                "directory": "floor_items/wear"
+            }
+        },
+        "floor_bounds": {
+            "top": 545,
+            "right": -250,
+            "bottom": 820,
+            "left": 385
+        }
+    },
+
+    "level_2": {
+        "level_time": 300,
+        "player_start": { "x": 300, "y": 450 },
+        "power_drain_rate": 25,
+        "sentries": {
+            "count": 3,  
+            "speed": "slow"  
+        },
+        "objects": [
+            {"name": "windlow_2", "interactive": true, "search_time": 1.0},
+            {"name": "space", "interactive": false},
+            {"name": "red-computer-l", "interactive": true, "search_time": 0.5},
+            {"name": "desk_pc_l", "interactive": true, "search_time": 0.5},
+            {"name": "windlow_2", "interactive": false},
+            {"name": "tan_computer_l", "interactive": false},
+            {"name": "buttons_l", "interactive": false},
+            {"name": "phone-smoke", "interactive": true, "search_time": 0.5}
+        ],
+        "progression": {
+            "interaction_order": ["red-computer-l", "door_floor_zone"],
+            "unlock": ["door"],
+            "door_position": { "x": 911, "y": 105 },
+            "door_floor_zone": {
+                "x1": 913, "y1": 107,
+                "x2": 842, "y2": 248,
+                "height_extension": 50
+            },
+            "door_closed_image": "closed_door.png",
+            "door_open_image": "open_door.png"
+        },
+        "floor_items": {
+            "random": {  
+                "count": 9,
+                "directory": "floor_items/random"
+            },
+            "placed": [
+                {
+                    "name": "5-14-floppy-marron-bl",
+                    "x": 750,
+                    "y": 320,
+                    "effect": "hint",
+                    "hint_text": "Disks contain rewards... or hazards."
+                }
+            ],
+            "wear": {
+                "count": 2,
+                "directory": "floor_items/wear"
+            }
+        },
+        "floor_bounds": {
+            "top": 545,
+            "right": -250,
+            "bottom": 820,
+            "left": 385
+        }
+    },
+
+    "level_3": {
+        "level_time": 250,
+        "player_start": { "x": 320, "y": 480 },
+        "power_drain_rate": 20,
+        "sentries": {
+            "count": 4,  
+            "speed": "slow"  
+        },
+        "objects": [
+            {"name": "buttons_l", "interactive": true, "search_time": 1.0},
+            {"name": "blue_computer_l", "interactive": true, "search_time": 0.5},
+            {"name": "purple_screen", "interactive": true, "search_time": 0.5},
+            {"name": "tape-hifi-l", "interactive": true, "search_time": 0.5},
+            {"name": "tape_reel_l", "interactive": true, "search_time": 0.5},
+            {"name": "buttons_l", "interactive": true, "search_time": 0.5},
+            {"name": "port-holes", "interactive": true, "search_time": 0.5},
+            {"name": "boxes", "interactive": false}
+        ],
+        "progression": {
+            "interaction_order": ["buttons_l", "game_over"],
+            "unlock": ["door"],
+            "door_position": { "x": 911, "y": 105 },
+            "door_floor_zone": {
+                "x1": 913, "y1": 107,
+                "x2": 842, "y2": 248,
+                "height_extension": 50
+            },
+            "door_closed_image": "closed_door.png",
+            "door_open_image": "open_door.png"
+        },
+        "floor_items": {
+            "random": {  
+                "count": 13,
+                "directory": "floor_items/random"
+            },
+            "placed": [
+                {
+                    "name": "5-14-floppy-marron-bl",
+                    "x": 750,
+                    "y": 320,
+                    "effect": "hint",
+                    "hint_text": "Disks contain rewards... or hazards."
+                }
+            ],
+            "wear": {
+                "count": 18,
+                "directory": "floor_items/wear"
+            }
+        },
+        "floor_bounds": {
+            "top": 545,
+            "right": -250,
+            "bottom": 820,
+            "left": 385
+        }
+    }
+}
